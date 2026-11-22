@@ -46,18 +46,8 @@ Especificaciones objetivo para la masa:
 ## Arquitectura
  
 ```
- Celda tipo S ──► NAU7802 (PGA ×128, ADC 24 b) ──I²C──┐
- Termopar K  ──► MAX31855K ───────────────────SPI─────┤
- BME280 (T, HR, P) ───────────────────────────I²C─────┤
-                                                       ▼
-                                          PIC18F57Q84 (Curiosity Nano)
-                                                       │ UART
-                                                       ▼
-                                          LoRa DX-LR03 (TX) ))) 433 MHz ))) LoRa DX-LR03 (RX)
-                                                                                   │ UART
-                                                                                   ▼
-                                                              Orange Pi Zero2W (Armbian)
-                                                              validación → MariaDB → Grafana
+<img width="2300" height="1000" alt="image" src="https://github.com/user-attachments/assets/2a287ceb-0667-4aa7-b048-e16d7c4cbdec" />
+
 ```
  
 ## Hardware
