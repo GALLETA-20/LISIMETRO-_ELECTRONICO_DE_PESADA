@@ -45,10 +45,7 @@ Especificaciones objetivo para la masa:
  
 ## Arquitectura
  
-```
-<img width="2300" height="1000" alt="image" src="https://github.com/user-attachments/assets/2a287ceb-0667-4aa7-b048-e16d7c4cbdec" />
-
-```
+![Diagrama de bloques del prototipo V1: nodo de campo y estación receptora](arquitectura.png)
  
 ## Hardware
  
